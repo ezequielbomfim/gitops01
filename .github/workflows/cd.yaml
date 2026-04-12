@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkou code
-      uses: actions/checkou@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
     - name: Build and push image to Dockerhub
       uses: docker/build-push-action@v1.1.0
