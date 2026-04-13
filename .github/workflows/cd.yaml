@@ -3,7 +3,10 @@ name: CDGitOps01
 on:
   push:
     branches: [main]
-#1o
+
+permissions:
+  contents: write
+  
 jobs:
   build:
     name: Build
