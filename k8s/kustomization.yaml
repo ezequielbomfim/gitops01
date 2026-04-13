@@ -10,4 +10,4 @@ resources:
 images:
 - name: goserver
   newName: ebomfim/gitops01
-  newTag: 0a516c09274760e89ce855d4f2eb44d9dca1d6d5
+  newTag: 7b67581a5ee0217f21ea881d87c21a17b1e5f17a
