@@ -40,7 +40,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git commit -am "Bump docker version"
 
-#Fazendo um push pro repositório
+#Fazendo um push pro repositório.
     - name: Push
       uses: ad-m/github-push-action@master
       with:
